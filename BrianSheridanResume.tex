@@ -1,0 +1,89 @@
+%% start of file `BrianSheridanResume.tex'.
+%% Brian Sheridan Resume
+%% Last edited on 11/01/15
+
+\documentclass[11pt,a4paper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage{microtype}     
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Brian}{Sheridan}
+%\title{Resumé}                               % optional, remove / comment the line if not wanted
+\address{14 Glen Loch Way}{Malvern, PA}{19355}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{+1~(484)~614~0828}                   
+\email{bts37@drexel.edu}                              
+%\homepage{http://bsheridan94.github.io/}                         
+%\social[linkedin]{BrianTSheridan}                        
+\social[github]{bsheridan94}                            
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\section{Education}
+\cventry{2012--2017}{BS/MS}{Drexel University}{Philadelphia, PA}{\textit{3.55}}{Majoring in Computer Engineering; Minor in Computer Crime}  % arguments 3 to 6 can be left empty
+%\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+
+\section{Awards and Achievements}
+\cvlistitem{Eagle Scout, Boy Scouts of America, November 2011}
+\cvlistitem{AJ Drexel Scholarship, Drexel University, Fall 2012 - Present}
+
+\section{Computer Skills}
+\cvitem{Languages}{C/C++, Python, \LaTeX, Matlab, Android, Bash, Make, Awk}
+\cvitem{Operating Systems}{Windows, GNU / Linux}
+\cvitem{Software}{VIM, Git, GDB, Visual Studio, PuTTY, Seapine Test Track, Bazaar, Excel}
+% \cvitemwithcomment{MATLAB}{Skill level}{Comment}
+
+\section{Experience}
+\cventry{August 2015 - Present}{Help Desk Analyst}{Drexel University}{Philadelphia, PA}{}{
+\begin{itemize}%
+\item Perform help desk computer support for the Lebow College faculty and students
+\end{itemize}}
+\cventry{September 2014 - March 2015}{Embedded Software Engineer}{Woodward McCoach Inc.}{West Chester, PA}{}{
+\begin{itemize}%
+\item Developed embedded C code for fiber optic switch and chassis managers in a Unix environment
+\item Wrote test scripts in Python to test hardware functionality and regression testing
+\item Created report generation scripts in Python and \LaTeX
+\item Performed quality assurance and testing on hardware in production
+\end{itemize}}
+\cventry{September 2013 - March 2014}{Electrical Designer}{Allen-Sherman-Hoff}{Exton, PA}{}{
+\begin{itemize}%
+\item Created and revised AutoCAD drawings for ASH handling systems, including: Elementary Wiring Diagrams,
+Control Panel Arrangements, Input/Output Wiring Diagrams, Logic Diagrams, and Terminal Block
+Arrangements
+\item Performed quality control testing for control panels and maintenance stations
+\item Wrote Visual Basic Application and AutoLISP scripts to automate tedious tasks in AutoCAD
+\end{itemize}}
+\cventry{June 2013 - September 2013}{Software Test Engineer}{Innovative Solutions \& Support}{Eagle, PA}{}{
+\begin{itemize}%
+\item Tested embedded C software functionality through visual, manual and automated testing
+\item Wrote and edited Excel based test scripts for use with their automated testing program
+\item Maintained documentation and tracing in compliance with Federal Aviation Administration through Doors 8.3
+\item Wrote and verified software problem reports with Seapine TestTrack
+\end{itemize}}
+
+\section{Relevant Coursework}
+\begin{cvcolumns}
+\cvcolumn[0.35]{}{\begin{itemize}\item Parallel Computer Architecture * \item  Design with Microcontrollers \item Computer Architecture\end{itemize}}
+\cvcolumn{}{\begin{itemize}\item High Performance Computing *\item Computing in the Small *\item Intro to Computer Networks\end{itemize}}
+\cvcolumn[.3]{}{\begin{itemize}\item Systems Programming\item Internet Of Things\item Digital Systems Projects\end{itemize}}
+\end{cvcolumns}
+\cventry{}{* Denotes Graduate Coursework}{}{}{}{}  % arguments 3 to 6 can be left empty
+
+\clearpage
+\end{document}
+
+%% end of file `template.tex'.
